@@ -15,6 +15,7 @@ double[,] GetDoubleNumbersArray(int line, int column)
     return newArray;
 }
 
+// Метод для вывода двумерного массива на экран
 void PrintArray(double[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
