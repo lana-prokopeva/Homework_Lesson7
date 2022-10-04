@@ -61,12 +61,12 @@ int[,] randomArray = GetArray(myArray);
 PrintArray(randomArray);
 
 if (indexN < randomArray.GetLength(0) && indexM < randomArray.GetLength(0))
-    {
-        Console.WriteLine($"Значение элемента = {myArray[indexN, indexM]}");
-    }
-    else
-    {
-        Console.WriteLine($"[{indexN},{indexM}]- такого значения в массиве нет");
-    }
+{
+    Console.WriteLine($"Значение элемента = {myArray[indexN, indexM]}");
+}
+else
+{
+    Console.WriteLine($"[{indexN},{indexM}]- такого значения в массиве нет");
+}
 
 
